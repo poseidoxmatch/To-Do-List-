@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(5, 0, 0);
+background: radial-gradient(circle, rgba(0,0,0,1) 27%, rgba(121,9,51,0.8986710963455149) 37%, rgba(0,212,255,1) 71%);
+}
+
+.form {
+  background: rgb(236,100,24);
+  background: rgb(24,46,236);
+background: linear-gradient(45deg, rgba(24,46,236,0.4219269102990033) 37%, rgba(0,255,252,0.23443444) 71%);
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 25%;
+ 
+}
+button {
+  border: none;
+  background-color: red;
+  padding: 5px;
+  color: rgb(252, 248, 248);
+  border-radius: 5px;
+
+}
+
+.form input {
+  margin: 5px 0;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border: solid 1px rgb(247, 240, 240);
+}
+input[type="button"] {
+  border: none;
+  background: rgba(28,236,24,0.888);
+  border: solid 2px rgb(247, 240, 240);
+  color: rgb(247, 239, 239);
+  font-weight:bolder;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#tasksContainer {
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 40%, rgba(148,187,233,1) 60%);
+  border-radius: 5px;
+  padding: 10px;
+  width: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.task {
+  border: solid 5px rgb(247, 240, 240);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task .days {
+  text-align: center;
+  width: 100px;
+}
+.task .days .days-number {
+  font-size: 30px;
+  font-weight: bold;
+  display: block;  
+  color: rgba(249,91,7,1);
+}
+.task .event-name {
+  padding: 20px;
+  font-weight: bold;
+  width: 200px;
+}
+.task .event-date {
+  padding: 10px;
+  width: 100px;
+}
+.task .actions {
+  padding: 10px;
+}
